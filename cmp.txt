@@ -1,0 +1,8 @@
+<aura:component >
+    <aura:attribute name="isHide" type="Boolean" default="false"/>
+    <div class="slds-theme_default">
+    <div class="slds-form-element">
+        <lightning:button label="Test Button" variant="brand" disabled="{!v.isHide}" onclick="{!c.handleClick}"/>
+        </div>
+    </div>
+</aura:component>
